@@ -12,7 +12,8 @@ import Entrar from '@/paginas/Entrar'
 export default function App() {
   return (
     <AuthProvider>
-      <BrowserRouter>
+      {/* BASE_URL acompanha o `base` do Vite: '/' no app nativo, '/app-htg/' no Pages */}
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Routes>
           {/* login existe mas ainda não é exigido: o conteúdo é aberto */}
           <Route path="/entrar" element={<Entrar />} />
