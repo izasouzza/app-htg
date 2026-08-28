@@ -1,4 +1,5 @@
 import { NavLink, Outlet } from 'react-router-dom'
+import RolagemDeRota from '@/components/RolagemDeRota'
 import { vibrar } from '@/lib/nativo'
 
 const abas = [
@@ -11,6 +12,8 @@ const abas = [
 export default function LayoutApp() {
   return (
     <div className="min-h-dvh bg-surface">
+      <RolagemDeRota />
+
       {/* no celular a navegação fica embaixo; de tablet para cima, no topo */}
       <header className="sticky top-0 z-20 hidden border-b border-line bg-surface/95 backdrop-blur md:block print:hidden">
         <div className="mx-auto flex max-w-5xl items-center gap-6 px-6 py-3">
