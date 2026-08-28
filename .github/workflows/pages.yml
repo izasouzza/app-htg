@@ -33,8 +33,6 @@ jobs:
         env:
           # o Pages serve em https://izasouzza.github.io/app-htg/
           BASE_PATH: /app-htg/
-          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
-          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
         run: npm run build
 
       - name: Preparar para o Pages

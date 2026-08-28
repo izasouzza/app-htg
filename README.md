@@ -27,7 +27,6 @@ no terminal ao rodar `npm run dev`.
 | `/indice` | Os 101 protocolos em ordem alfabética |
 | `/protocolo/:numero` | Desenho do protocolo, onde aplicar, palavras-chave e relações energéticas |
 | `/sobre` | Como usar, dúvidas frequentes e aviso de saúde |
-| `/entrar` | Login por e-mail (Supabase). Existe, mas o app não exige login |
 
 ## Como a busca funciona
 
@@ -68,12 +67,6 @@ npm run app:abrir-ios    # abre no Xcode
 
 Antes de publicar, trocar o `appId` em [capacitor.config.ts](capacitor.config.ts) — o valor atual
 (`com.exemplo.apphtg`) é provisório e o identificador é permanente nas lojas.
-
-## Supabase
-
-O cliente e o estado de login já estão prontos em [src/lib/](src/lib/), mas o app funciona sem
-eles — útil se um dia o acesso precisar ser restrito a quem comprou o livro. Para ligar, copie
-`.env.example` para `.env.local` e preencha URL e chave `anon`.
 
 ## Aviso
 

@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# variáveis de ambiente locais
+.env.local
+.env*.local
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -22,10 +26,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# variáveis de ambiente locais
-.env.local
-.env*.local
 
 # projetos nativos gerados pelo Capacitor
 /ios
