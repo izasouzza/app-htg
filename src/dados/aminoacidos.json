@@ -1,0 +1,382 @@
+[
+ {
+  "codigo": "A",
+  "nome": "Alanina",
+  "essencial": "Não",
+  "funcoes": [
+   "Energia muscular",
+   "gliconeogênese"
+  ],
+  "sintomasDeficiencia": [
+   "Fadiga",
+   "fraqueza muscular"
+  ],
+  "fontes": [
+   "Carnes",
+   "ovos",
+   "peixes",
+   "leguminosas"
+  ]
+ },
+ {
+  "codigo": "R",
+  "nome": "Arginina",
+  "essencial": "Condicional",
+  "funcoes": [
+   "Cicatrização",
+   "vasodilatação (NO)",
+   "imunidade"
+  ],
+  "sintomasDeficiencia": [
+   "Cicatrização lenta",
+   "baixa imunidade"
+  ],
+  "fontes": [
+   "Carnes",
+   "sementes",
+   "nozes",
+   "leguminosas"
+  ]
+ },
+ {
+  "codigo": "N",
+  "nome": "Asparagina",
+  "essencial": "Não",
+  "funcoes": [
+   "Síntese proteica",
+   "sistema nervoso"
+  ],
+  "sintomasDeficiencia": [
+   "Irritabilidade",
+   "fadiga"
+  ],
+  "fontes": [
+   "Aspargos",
+   "batata",
+   "carnes",
+   "grãos"
+  ]
+ },
+ {
+  "codigo": "D",
+  "nome": "Ácido Aspártico",
+  "essencial": "Não",
+  "funcoes": [
+   "Energia",
+   "síntese de aminoácidos"
+  ],
+  "sintomasDeficiencia": [
+   "Cansaço",
+   "redução da clareza mental"
+  ],
+  "fontes": [
+   "Carnes",
+   "aves",
+   "ovos",
+   "soja"
+  ]
+ },
+ {
+  "codigo": "C",
+  "nome": "Cisteína",
+  "essencial": "Condicional",
+  "funcoes": [
+   "Antioxidante",
+   "detox (glutationa)",
+   "pele e cabelos"
+  ],
+  "sintomasDeficiencia": [
+   "Queda de cabelo",
+   "baixa imunidade"
+  ],
+  "fontes": [
+   "Ovos",
+   "aves",
+   "alho",
+   "cebola",
+   "brócolis"
+  ]
+ },
+ {
+  "codigo": "Q",
+  "nome": "Glutamina",
+  "essencial": "Condicional",
+  "funcoes": [
+   "Saúde intestinal e imunológica"
+  ],
+  "sintomasDeficiencia": [
+   "Problemas intestinais",
+   "fraqueza"
+  ],
+  "fontes": [
+   "Carnes",
+   "ovos",
+   "espinafre",
+   "repolho"
+  ]
+ },
+ {
+  "codigo": "E",
+  "nome": "Ácido Glutâmico",
+  "essencial": "Não",
+  "funcoes": [
+   "Neurotransmissor",
+   "síntese de GABA"
+  ],
+  "sintomasDeficiencia": [
+   "Fadiga mental",
+   "memória ruim"
+  ],
+  "fontes": [
+   "Tomate",
+   "cogumelos",
+   "carnes",
+   "ovos"
+  ]
+ },
+ {
+  "codigo": "G",
+  "nome": "Glicina",
+  "essencial": "Não",
+  "funcoes": [
+   "Colágeno",
+   "sono",
+   "neurotransmissão"
+  ],
+  "sintomasDeficiencia": [
+   "Envelhecimento precoce",
+   "dor articular"
+  ],
+  "fontes": [
+   "Gelatina",
+   "caldos de ossos",
+   "carnes",
+   "sementes"
+  ]
+ },
+ {
+  "codigo": "H",
+  "nome": "Histidina",
+  "essencial": "Essencial",
+  "funcoes": [
+   "Imunidade",
+   "cicatrização",
+   "hemoglobina"
+  ],
+  "sintomasDeficiencia": [
+   "Dermatite",
+   "anemia"
+  ],
+  "fontes": [
+   "Carnes",
+   "peixes",
+   "laticínios"
+  ]
+ },
+ {
+  "codigo": "I",
+  "nome": "Isoleucina",
+  "essencial": "Essencial",
+  "funcoes": [
+   "Energia muscular (BCAA)"
+  ],
+  "sintomasDeficiencia": [
+   "Fraqueza",
+   "tontura"
+  ],
+  "fontes": [
+   "Carnes",
+   "peixes",
+   "ovos",
+   "leguminosas"
+  ]
+ },
+ {
+  "codigo": "L",
+  "nome": "Leucina",
+  "essencial": "Essencial",
+  "funcoes": [
+   "Síntese proteica (mTOR)",
+   "músculos"
+  ],
+  "sintomasDeficiencia": [
+   "Perda muscular"
+  ],
+  "fontes": [
+   "Carnes",
+   "ovos",
+   "whey",
+   "leguminosas"
+  ]
+ },
+ {
+  "codigo": "K",
+  "nome": "Lisina",
+  "essencial": "Essencial",
+  "funcoes": [
+   "Colágeno",
+   "cálcio",
+   "imunidade"
+  ],
+  "sintomasDeficiencia": [
+   "Queda de cabelo",
+   "ansiedade"
+  ],
+  "fontes": [
+   "Carnes",
+   "queijos",
+   "ovos",
+   "leguminosas"
+  ]
+ },
+ {
+  "codigo": "M",
+  "nome": "Metionina",
+  "essencial": "Essencial",
+  "funcoes": [
+   "Enxofre",
+   "detox",
+   "precursor da cisteína"
+  ],
+  "sintomasDeficiencia": [
+   "Fígado lento",
+   "fraqueza"
+  ],
+  "fontes": [
+   "Ovos",
+   "gergelim",
+   "peixe",
+   "nozes"
+  ]
+ },
+ {
+  "codigo": "F",
+  "nome": "Fenilalanina",
+  "essencial": "Essencial",
+  "funcoes": [
+   "Precursor de dopamina e hormônios"
+  ],
+  "sintomasDeficiencia": [
+   "Desânimo",
+   "baixa motivação"
+  ],
+  "fontes": [
+   "Carnes",
+   "peixes",
+   "soja",
+   "laticínios"
+  ]
+ },
+ {
+  "codigo": "P",
+  "nome": "Prolina",
+  "essencial": "Não",
+  "funcoes": [
+   "Colágeno e tecidos"
+  ],
+  "sintomasDeficiencia": [
+   "Pele e articulações fracas"
+  ],
+  "fontes": [
+   "Carnes",
+   "gelatina",
+   "laticínios"
+  ]
+ },
+ {
+  "codigo": "S",
+  "nome": "Serina",
+  "essencial": "Não",
+  "funcoes": [
+   "Membranas celulares",
+   "metabolismo"
+  ],
+  "sintomasDeficiencia": [
+   "Problemas de memória"
+  ],
+  "fontes": [
+   "Soja",
+   "ovos",
+   "carne",
+   "laticínios"
+  ]
+ },
+ {
+  "codigo": "T",
+  "nome": "Treonina",
+  "essencial": "Essencial",
+  "funcoes": [
+   "Colágeno",
+   "mucosas",
+   "imunidade"
+  ],
+  "sintomasDeficiencia": [
+   "Digestão lenta",
+   "irritabilidade"
+  ],
+  "fontes": [
+   "Ovos",
+   "queijos",
+   "lentilhas",
+   "frango"
+  ]
+ },
+ {
+  "codigo": "W",
+  "nome": "Triptofano",
+  "essencial": "Essencial",
+  "funcoes": [
+   "Serotonina",
+   "melatonina"
+  ],
+  "sintomasDeficiencia": [
+   "Insônia",
+   "ansiedade"
+  ],
+  "fontes": [
+   "Ovos",
+   "cacau",
+   "banana",
+   "peru"
+  ]
+ },
+ {
+  "codigo": "Y",
+  "nome": "Tirosina",
+  "essencial": "Não",
+  "funcoes": [
+   "Dopamina",
+   "adrenalina",
+   "tireoide"
+  ],
+  "sintomasDeficiencia": [
+   "Fadiga",
+   "baixa motivação"
+  ],
+  "fontes": [
+   "Queijos",
+   "peixe",
+   "soja",
+   "abacate"
+  ]
+ },
+ {
+  "codigo": "V",
+  "nome": "Valina",
+  "essencial": "Essencial",
+  "funcoes": [
+   "Energia muscular",
+   "recuperação"
+  ],
+  "sintomasDeficiencia": [
+   "Cãibras",
+   "fadiga"
+  ],
+  "fontes": [
+   "Carnes",
+   "laticínios",
+   "feijão",
+   "nozes"
+  ]
+ }
+]

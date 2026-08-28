@@ -1,0 +1,1589 @@
+[
+ {
+  "numero": 1,
+  "titulo": "Aftas",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Fogo (C/CS/ID), Madeira (F) e Terra (BP/E).",
+  "palavrasChave": [
+   "Erupções",
+   "Boca",
+   "Nariz",
+   "Estomatite",
+   "Estômago",
+   "Garganta"
+  ],
+  "sugestao": "Evitar os seguintes alimentos — Nozes, Castanhas, Chocolate, Avelã, Feijão Preto, Queijo,",
+  "notaAplicacao": "",
+  "pagina": 18
+ },
+ {
+  "numero": 2,
+  "titulo": "Alcoolismo",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R), Metal (P) e Fogo (C/CS).",
+  "palavrasChave": [
+   "Abstinência",
+   "Vícios",
+   "Reabilitação"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 19
+ },
+ {
+  "numero": 3,
+  "titulo": "Alergias de Pele",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R), Metal (P/IG) e Madeira (F).",
+  "palavrasChave": [
+   "Psoríase",
+   "Urticárias",
+   "Eczemas",
+   "Alergias",
+   "Pele",
+   "Coceira",
+   "Caspa"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 20
+ },
+ {
+  "numero": 4,
+  "titulo": "Alergias Respiratórias",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R), Metal (P/IG) e Madeira (F).",
+  "palavrasChave": [
+   "Rinite",
+   "Nariz",
+   "Espirro",
+   "Alergias",
+   "Tosse",
+   "Coceira"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 21
+ },
+ {
+  "numero": 5,
+  "titulo": "Alopecia",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R), Fogo (C/CS) e Madeira (F).",
+  "palavrasChave": [
+   "Queda de cabelo",
+   "Calvície",
+   "Cabelo"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 22
+ },
+ {
+  "numero": 6,
+  "titulo": "Amigdalite",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R), Metal (P/IG) e Fogo (C/ID/CS).",
+  "palavrasChave": [
+   "Garganta",
+   "Inflamação"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 23
+ },
+ {
+  "numero": 7,
+  "titulo": "Anemia",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Terra (BP/E) e Madeira (F).",
+  "palavrasChave": [
+   "Sangue",
+   "Nutrição",
+   "Fraqueza",
+   "Cansaço"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 24
+ },
+ {
+  "numero": 8,
+  "titulo": "Ansiedade",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R), Fogo (C/CS) e Madeira (F).",
+  "palavrasChave": [
+   "Angústia",
+   "Agitação",
+   "Insegurança",
+   "Medo"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 25
+ },
+ {
+  "numero": 9,
+  "titulo": "Apneia do Sono",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R), Terra (BP/E) e Metal (P/IG).",
+  "palavrasChave": [
+   "Ronco",
+   "Falta de ar"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 26
+ },
+ {
+  "numero": 10,
+  "titulo": "Arritmia",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Terra (BP/E) e Madeira (F).",
+  "palavrasChave": [
+   "Disritmia",
+   "Taquicardia",
+   "Coração",
+   "Hipertensão"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 27
+ },
+ {
+  "numero": 11,
+  "titulo": "Arteriosclerose",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Fogo (C), Terra (BP/E) e Metal (P/IG).",
+  "palavrasChave": [
+   "Sangue",
+   "Artérias",
+   "Veias"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 28
+ },
+ {
+  "numero": 12,
+  "titulo": "Artrite",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Metal (P/IG) e Madeira (F/VB).",
+  "palavrasChave": [
+   "Cotovelos",
+   "Joelhos",
+   "Quadril",
+   "Ombros",
+   "Punhos",
+   "Dedos",
+   "Tornozelos",
+   "Pés",
+   "Mãos",
+   "Artrose",
+   "Inflamação"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 29
+ },
+ {
+  "numero": 13,
+  "titulo": "Asma",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/CS) e Metal (P/IG).",
+  "palavrasChave": [
+   "Falta de ar",
+   "Chiado",
+   "Tosse"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 30
+ },
+ {
+  "numero": 14,
+  "titulo": "Aumento da Função Pulmonar",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/CS) e Metal (P).",
+  "palavrasChave": [
+   "Falta de ar",
+   "Imunidade",
+   "Pele",
+   "Intestino"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 31
+ },
+ {
+  "numero": 15,
+  "titulo": "Bronquite",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Metal (P), Terra (BP/E) e Fogo (C/CS).",
+  "palavrasChave": [
+   "Bronquiolite",
+   "Muco",
+   "Tosse",
+   "Falta de ar"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 32
+ },
+ {
+  "numero": 16,
+  "titulo": "Cãibras",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C) e Madeira (F).",
+  "palavrasChave": [
+   "Dor muscular",
+   "Distensão"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 33
+ },
+ {
+  "numero": 17,
+  "titulo": "Cálculos Renais",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R), Madeira (F/VB) e Terra (BP/E).",
+  "palavrasChave": [
+   "Pedra no rim",
+   "Rim",
+   "Pedra na vesícula",
+   "Vesícula",
+   "Cólica renal",
+   "Cálculo biliar"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 34
+ },
+ {
+  "numero": 18,
+  "titulo": "Câncer",
+  "complemento": "Nutrição p/ Paciente",
+  "descricao": "",
+  "relacoes": "Elementos Metal (P/IG), Fogo (C/CS/ID/TA) e Madeira (F/VB).",
+  "palavrasChave": [
+   "Quimioterapia",
+   "Radioterapia",
+   "Nutrição celular"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 35
+ },
+ {
+  "numero": 19,
+  "titulo": "Cáries",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Terra (BP/E) e Fogo (C).",
+  "palavrasChave": [
+   "Dentes",
+   "Sensibilidade dentária"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 36
+ },
+ {
+  "numero": 20,
+  "titulo": "Ciatalgia",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C) e Madeira (F/VB).",
+  "palavrasChave": [
+   "Ciático",
+   "Coluna",
+   "Lombar",
+   "Dor muscular",
+   "Pernas",
+   "Panturrilhas"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 37
+ },
+ {
+  "numero": 21,
+  "titulo": "Cicatrização",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R), Madeira (F) e Metal (P/IG).",
+  "palavrasChave": [
+   "Pele",
+   "Regeneração de tecidos",
+   "Lesões",
+   "Cirurgias",
+   "Pós-cirúrgico",
+   "Pré-operatório"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 38
+ },
+ {
+  "numero": 22,
+  "titulo": "Cicatrização Óssea",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/CS) e Madeira (F/VB).",
+  "palavrasChave": [
+   "Fratura",
+   "Osteoporose",
+   "Osteopenia"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 39
+ },
+ {
+  "numero": 23,
+  "titulo": "Cirrose Hepática",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Terra (BP/E) e Madeira (F/VB).",
+  "palavrasChave": [
+   "Abstinência",
+   "Alcoolismo",
+   "Gordura no fígado",
+   "Gosto amargo"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 40
+ },
+ {
+  "numero": 24,
+  "titulo": "Cirurgias Dentárias",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Metal (P) e Madeira (F).",
+  "palavrasChave": [
+   "Extração dentária",
+   "Dentes do siso",
+   "Canal dentário"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 41
+ },
+ {
+  "numero": 25,
+  "titulo": "Colesterol",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Metal (P), Terra (BP/E) e Fogo (C/CS).",
+  "palavrasChave": [
+   "Gordura",
+   "Sangue",
+   "Obesidade"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 42
+ },
+ {
+  "numero": 26,
+  "titulo": "Compulsões Alimentares",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Terra (BP/E) e Fogo (CS/C/ID).",
+  "palavrasChave": [
+   "Apetite",
+   "Obesidade",
+   "Ansiedade",
+   "Vícios"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 43
+ },
+ {
+  "numero": 27,
+  "titulo": "Concentração",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Terra (BP/E) e Fogo (C/CS).",
+  "palavrasChave": [
+   "Foco",
+   "Estudos",
+   "Estresse"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 44
+ },
+ {
+  "numero": 28,
+  "titulo": "Contusão",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Metal (P/IG), Terra (BP/E) e Madeira (F/VB).",
+  "palavrasChave": [
+   "Estiramento",
+   "Nódulo",
+   "Dor muscular",
+   "Torção",
+   "Tombo"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 45
+ },
+ {
+  "numero": 29,
+  "titulo": "Covid-19",
+  "complemento": "Positivo ou Suspeita",
+  "descricao": "Protocolo para nutrição do paciente, e alívio dos principais sintomas.",
+  "relacoes": "Elementos Água (R/B), Fogo (C) e Madeira (F).",
+  "palavrasChave": [],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 46
+ },
+ {
+  "numero": 30,
+  "titulo": "Covid-19",
+  "complemento": "Positivo ou Suspeita",
+  "descricao": "Protocolo para alívio dos sintomas, e proteção contra os maiores danos.",
+  "relacoes": "Elementos Água (R/B), Metal (P/IG) e Fogo (C/CS).",
+  "palavrasChave": [],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 47
+ },
+ {
+  "numero": 31,
+  "titulo": "Crescimento Infantil",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/CS) e Madeira (F/VB).",
+  "palavrasChave": [
+   "Hormônios",
+   "Nanismo"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 48
+ },
+ {
+  "numero": 32,
+  "titulo": "Dedo em Gatilho",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elemento Madeira (F/VB).",
+  "palavrasChave": [
+   "Estalo nos dedos",
+   "Rigidez nos dedos"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "Desenhar na lateral dos “nós” dos dedos afetados",
+  "pagina": 49
+ },
+ {
+  "numero": 33,
+  "titulo": "Dengue",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Terra (BP/E) e Madeira (F/VB).",
+  "palavrasChave": [
+   "Febre amarela",
+   "Hemorragia"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 50
+ },
+ {
+  "numero": 34,
+  "titulo": "Dependência Química",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Metal (P/IG) e Fogo (C/CS/ID).",
+  "palavrasChave": [
+   "Abstinência",
+   "Drogas",
+   "Reabilitação"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 51
+ },
+ {
+  "numero": 35,
+  "titulo": "Depressão",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/CS) e Metal (P/IG).",
+  "palavrasChave": [
+   "Depressão",
+   "Medo",
+   "Insegurança",
+   "Síndrome do pânico",
+   "Melancolia"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 52
+ },
+ {
+  "numero": 36,
+  "titulo": "Depressão Pós-parto",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/CS) e Madeira (F).",
+  "palavrasChave": [
+   "Medo",
+   "Melancolia"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 53
+ },
+ {
+  "numero": 37,
+  "titulo": "Desnutrição",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Terra (BP/E) e Fogo (C/ID/CS/TA).",
+  "palavrasChave": [
+   "Diarreia",
+   "Fadiga",
+   "Tontura",
+   "Fraqueza",
+   "Perda de peso"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 54
+ },
+ {
+  "numero": 38,
+  "titulo": "Diabetes",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Terra (BP/E) e Metal (P/IG).",
+  "palavrasChave": [
+   "Sangue",
+   "Insulina",
+   "Glicemia"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 55
+ },
+ {
+  "numero": 39,
+  "titulo": "Dores Articulares",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/ID) e Madeira (F).",
+  "palavrasChave": [
+   "Joelhos",
+   "Pés",
+   "Dedos",
+   "Quadril",
+   "Tornozelos",
+   "Cotovelos",
+   "Ombros",
+   "Punhos",
+   "Mãos"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 56
+ },
+ {
+  "numero": 40,
+  "titulo": "Dores Musculares",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Fogo (C/ID), Terra (BP/E) e Madeira (F).",
+  "palavrasChave": [
+   "Nódulos",
+   "Coluna",
+   "Costas",
+   "Pernas",
+   "Braços"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 57
+ },
+ {
+  "numero": 41,
+  "titulo": "Dormências",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Terra (BP/E) e Madeira (F).",
+  "palavrasChave": [
+   "Braços",
+   "Mãos",
+   "Pernas",
+   "Pés",
+   "Dedos",
+   "Formigamento"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 58
+ },
+ {
+  "numero": 42,
+  "titulo": "Eliminação de Toxinas",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Terra (BP/E) e Madeira (F/VB).",
+  "palavrasChave": [
+   "Desintoxicação",
+   "DETOX",
+   "Gordura no fígado",
+   "Quimioterapia",
+   "Radioterapia"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 59
+ },
+ {
+  "numero": 43,
+  "titulo": "Esporão",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/ID) e Madeira (F).",
+  "palavrasChave": [
+   "Joanete",
+   "Calcificações",
+   "Pés",
+   "Calos"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "Sobre o Local",
+  "pagina": 60
+ },
+ {
+  "numero": 44,
+  "titulo": "Fala",
+  "complemento": "Distúrbios",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/CS/TA/ID) e Metal (P/IG).",
+  "palavrasChave": [
+   "Gagueira",
+   "Disfasia",
+   "Timidez",
+   "Dislalia",
+   "Afasia",
+   "Dispraxia"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 61
+ },
+ {
+  "numero": 45,
+  "titulo": "Felicidade",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "",
+  "palavrasChave": [
+   "Alteração de humor",
+   "Insônia",
+   "Ansiedade",
+   "Agressividade",
+   "Pesadelos",
+   "Estresse",
+   "Depressão",
+   "Cansaço",
+   "Obesidade",
+   "Apetite",
+   "Medo",
+   "Insegurança",
+   "Timidez",
+   "Dores",
+   "Cefaleia",
+   "TPM"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 62
+ },
+ {
+  "numero": 46,
+  "titulo": "Fertilidade Feminina",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/CS) e Madeira (F/VB).",
+  "palavrasChave": [
+   "Gravidez"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 63
+ },
+ {
+  "numero": 47,
+  "titulo": "Fertilidade Masculina",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/ID) e Madeira (F).",
+  "palavrasChave": [
+   "Gravidez"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 64
+ },
+ {
+  "numero": 48,
+  "titulo": "Fibromialgia",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/CS/TA/ID) e Metal (P/IG).",
+  "palavrasChave": [
+   "Reumatismo",
+   "Dor muscular"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 65
+ },
+ {
+  "numero": 49,
+  "titulo": "Flatulências",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Terra (BP/E) e Fogo (C/ID).",
+  "palavrasChave": [
+   "Gases",
+   "Desconforto abdominal",
+   "Cólica intestinal"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "Lado esquerdo",
+  "pagina": 66
+ },
+ {
+  "numero": 50,
+  "titulo": "Flora Intestinal",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Fogo (C/ID), Terra (BP/E) e Metal (F/IG).",
+  "palavrasChave": [
+   "Diarreia",
+   "Constipação",
+   "Doença de Crohn",
+   "Síndrome do intestino irritável"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 67
+ },
+ {
+  "numero": 51,
+  "titulo": "Fobias",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Metal (P/IG) e Madeira (F).",
+  "palavrasChave": [
+   "Medo",
+   "Pesadelos",
+   "Síndrome do Pânico"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 68
+ },
+ {
+  "numero": 52,
+  "titulo": "Garganta",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/ID) e Madeira (F).",
+  "palavrasChave": [
+   "Inflamação",
+   "Laringite",
+   "Amigdalite",
+   "Caxumba",
+   "Faringite"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 69
+ },
+ {
+  "numero": 53,
+  "titulo": "Gastrite",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Fogo (C/ID), Terra (BP/E) e Madeira (F/VB).",
+  "palavrasChave": [
+   "Azia",
+   "Acidez estomacal",
+   "Úlcera",
+   "Queimação",
+   "Refluxo"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 70
+ },
+ {
+  "numero": 54,
+  "titulo": "Gastrointestinal",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Fogo (C/ID), Terra (BP/E) e Metal (P/IG).",
+  "palavrasChave": [
+   "Diarreia",
+   "Constipação",
+   "Estomatite",
+   "Doença de Crohn",
+   "Indigestão"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 71
+ },
+ {
+  "numero": 55,
+  "titulo": "Hematomas",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Metal (P), Terra (BP/E) e Madeira (F).",
+  "palavrasChave": [
+   "Tombo",
+   "Pancada",
+   "Edema"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 72
+ },
+ {
+  "numero": 56,
+  "titulo": "Hemorragias",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Fogo (C/ID), Terra (BP/E) e Metal (P/IG).",
+  "palavrasChave": [
+   "Hemorragia nasal",
+   "Metrorragia",
+   "Cicatrização"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 73
+ },
+ {
+  "numero": 57,
+  "titulo": "Hemorroidas",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Fogo (C/ID), Terra (BP/E) e Metal (P/IG).",
+  "palavrasChave": [
+   "Varizes",
+   "Prolapso",
+   "Hemorragias"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 74
+ },
+ {
+  "numero": 58,
+  "titulo": "Hepatite",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Fogo (C/ID), Metal (P/IG) e Madeira (F/VB).",
+  "palavrasChave": [
+   "Vírus",
+   "Sequelas"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 75
+ },
+ {
+  "numero": 59,
+  "titulo": "Hérnia de Disco",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Fogo (C), Metal (P) e Madeira (F).",
+  "palavrasChave": [
+   "Abaulamento discal",
+   "Protrusão discal"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "Sobre as vértebras afetadas",
+  "pagina": 76
+ },
+ {
+  "numero": 60,
+  "titulo": "Herpes",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Fogo (C/ID), Terra (BP/E) e Madeira (F/VB).",
+  "palavrasChave": [
+   "Vírus",
+   "Herpes zoster",
+   "Imunidade"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 77
+ },
+ {
+  "numero": 61,
+  "titulo": "Hiperatividade",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Metal (P) e Madeira (F).",
+  "palavrasChave": [
+   "Epilepsia",
+   "Déficit de atenção",
+   "Agitação"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 78
+ },
+ {
+  "numero": 62,
+  "titulo": "HIV",
+  "complemento": "Nutrição p/ Paciente",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Metal (P/IG) e Madeira (F/VB).",
+  "palavrasChave": [
+   "Imunidade",
+   "Nutrição"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 79
+ },
+ {
+  "numero": 63,
+  "titulo": "Imunidade",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Fogo (C/ID), Metal (P) e Madeira (F).",
+  "palavrasChave": [
+   "Anticorpos",
+   "Resistência"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 80
+ },
+ {
+  "numero": 64,
+  "titulo": "Indisposição",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Terra (BP/E) e Madeira (F).",
+  "palavrasChave": [
+   "Cansaço",
+   "Fraqueza",
+   "Apatia"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 81
+ },
+ {
+  "numero": 65,
+  "titulo": "Insônia",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/CS) e Madeira (F).",
+  "palavrasChave": [
+   "Pesadelos",
+   "Qualidade de sono",
+   "Sonambulismo",
+   "Terror noturno"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 82
+ },
+ {
+  "numero": 66,
+  "titulo": "Intolerância à Lactose",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Fogo (C/ID), Terra (BP/E) e Madeira (F/VB).",
+  "palavrasChave": [
+   "Azia",
+   "Diarreia",
+   "Refluxo",
+   "Indigestão"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 83
+ },
+ {
+  "numero": 67,
+  "titulo": "Intolerância ao Glúten",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Metal (P/IG) e Madeira (F).",
+  "palavrasChave": [
+   "Azia",
+   "Diarreia",
+   "Indigestão",
+   "Refluxo"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 84
+ },
+ {
+  "numero": 68,
+  "titulo": "Labirintite",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/ID/TA/CS) e Metal (P/IG).",
+  "palavrasChave": [
+   "Labirintose",
+   "Tontura",
+   "Zumbido"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 85
+ },
+ {
+  "numero": 69,
+  "titulo": "Libido",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/CS/ID/TA) e Madeira (F).",
+  "palavrasChave": [
+   "Hormônios",
+   "Resposta sexual"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 86
+ },
+ {
+  "numero": 70,
+  "titulo": "Lúpus",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Fogo (C/ID/CS/TA), Metal (P/IG) e Madeira (F).",
+  "palavrasChave": [
+   "Imunidade",
+   "Anticorpos"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 87
+ },
+ {
+  "numero": 71,
+  "titulo": "Mal-estar",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Metal (P) e Madeira (F).",
+  "palavrasChave": [
+   "Febre",
+   "Dor no corpo",
+   "Indisposição",
+   "Fraqueza"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 88
+ },
+ {
+  "numero": 72,
+  "titulo": "Memória",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/ID/TA/ID) e Madeira (F).",
+  "palavrasChave": [
+   "Alzheimer",
+   "Amnésia",
+   "Foco",
+   "Concentração",
+   "Estudos"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 89
+ },
+ {
+  "numero": 73,
+  "titulo": "Menopausa",
+  "complemento": "Sintomas",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Metal (P/IG) e Madeira (F).",
+  "palavrasChave": [
+   "Calorões",
+   "Alteração de humor",
+   "Secura vaginal",
+   "Libido",
+   "Zumbido"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 90
+ },
+ {
+  "numero": 74,
+  "titulo": "Náusea",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Fogo (C/CS/ID/TA), Terra (BP/E) e Madeira (F/VB).",
+  "palavrasChave": [
+   "Enjoo",
+   "Tontura",
+   "Vômito",
+   "Azia",
+   "Refluxo",
+   "Gravidez"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 91
+ },
+ {
+  "numero": 75,
+  "titulo": "Nodulações",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Terra (BP/E) e Madeira (F).",
+  "palavrasChave": [
+   "Edemas",
+   "Inchaço",
+   "Hematomas"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 92
+ },
+ {
+  "numero": 76,
+  "titulo": "Obesidade",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Terra (BP/E) e Fogo (C/ID/CS/TA).",
+  "palavrasChave": [
+   "Apetite",
+   "Perda de peso"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 93
+ },
+ {
+  "numero": 77,
+  "titulo": "Osteoporose",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Metal (P/IG) e Madeira (F).",
+  "palavrasChave": [
+   "Osteopenia",
+   "Dentes",
+   "Fraturas"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 94
+ },
+ {
+  "numero": 78,
+  "titulo": "Paralisias Locais",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Terra (BP/E) e Madeira (F).",
+  "palavrasChave": [
+   "Sequelas",
+   "Perda de movimento",
+   "Perda de sensibilidade"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 95
+ },
+ {
+  "numero": 79,
+  "titulo": "Parkinson",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Metal (P/IG) e Madeira (F/VB).",
+  "palavrasChave": [
+   "Tremores",
+   "Mobilidade",
+   "Coordenação"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 96
+ },
+ {
+  "numero": 80,
+  "titulo": "Picada de Inseto",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elemento Madeira (F)",
+  "palavrasChave": [
+   "Alergia",
+   "Edema",
+   "Pele"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "Desenhar sobre a picada",
+  "pagina": 97
+ },
+ {
+  "numero": 81,
+  "titulo": "Pressão Alta",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Terra (BP/E) e Madeira (F).",
+  "palavrasChave": [
+   "Estresse",
+   "Enxaqueca",
+   "Tensão",
+   "Hipertensão"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 98
+ },
+ {
+  "numero": 82,
+  "titulo": "Proteção Contra Danos do AVC",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C) e Madeira (F).",
+  "palavrasChave": [
+   "Sequelas",
+   "Derrame"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 99
+ },
+ {
+  "numero": 83,
+  "titulo": "Queimadura",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Metal (P/IG) e Fogo (C).",
+  "palavrasChave": [
+   "Cicatrização",
+   "Queloide",
+   "Insolação",
+   "Pele"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 100
+ },
+ {
+  "numero": 84,
+  "titulo": "Resfriado",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Metal (P/IG) e Madeira (F).",
+  "palavrasChave": [
+   "Coriza",
+   "Espirro",
+   "Gripe",
+   "Alergia",
+   "Rinite"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 101
+ },
+ {
+  "numero": 85,
+  "titulo": "Ressaca",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/CS/ID) e Madeira (F).",
+  "palavrasChave": [
+   "Náusea",
+   "Indisposição",
+   "Vômito",
+   "Cefaleia",
+   "Fraqueza"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 102
+ },
+ {
+  "numero": 86,
+  "titulo": "Saúde da Próstata",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/ID) e Metal (P/IG).",
+  "palavrasChave": [
+   "Câncer (Prevenção)"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 103
+ },
+ {
+  "numero": 87,
+  "titulo": "Sinusite",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Terra (BP/E) e Metal (P/IG).",
+  "palavrasChave": [
+   "Muco",
+   "Coriza",
+   "Congestão nasal",
+   "Cefaleia"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 104
+ },
+ {
+  "numero": 88,
+  "titulo": "Soluço",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elemento Madeira (F/VB).",
+  "palavrasChave": [
+   "Refluxo"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 105
+ },
+ {
+  "numero": 89,
+  "titulo": "Surto Psicótico",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), e Madeira (F).",
+  "palavrasChave": [
+   "Agressividade",
+   "Hiperatividade",
+   "Alucinações"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 106
+ },
+ {
+  "numero": 90,
+  "titulo": "Tabagismo",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/CS) e Metal (P).",
+  "palavrasChave": [
+   "Vícios",
+   "Abstinência"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 107
+ },
+ {
+  "numero": 91,
+  "titulo": "Tendinite",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/ID) e Madeira (F).",
+  "palavrasChave": [
+   "Túnel do carpo",
+   "Dedo em gatilho",
+   "Ligamentos",
+   "Rompimento de tendão"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 108
+ },
+ {
+  "numero": 92,
+  "titulo": "Timidez Infantil",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Terra (BP/E) e Fogo (C/CS).",
+  "palavrasChave": [
+   "Pesadelos",
+   "Gagueira",
+   "Terror noturno",
+   "Insegurança"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 109
+ },
+ {
+  "numero": 93,
+  "titulo": "Tireoide",
+  "complemento": "Descontroles",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/CS) e Madeira (F).",
+  "palavrasChave": [
+   "Hipotireoidismo",
+   "Hipertireoidismo",
+   "Tireoidite",
+   "Hormônios"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 110
+ },
+ {
+  "numero": 94,
+  "titulo": "Tosse",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Metal (P/IG) e Fogo (C/TA/CS).",
+  "palavrasChave": [
+   "Expectoração",
+   "Bronquite",
+   "Sinusite",
+   "Tosse seca",
+   "Pneumonia",
+   "Congestão nasal"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 111
+ },
+ {
+  "numero": 95,
+  "titulo": "TPM",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/CS) e Madeira (F).",
+  "palavrasChave": [
+   "Endometriose",
+   "Amenorreia",
+   "Hormônios",
+   "Alteração de humor",
+   "Cólica"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 112
+ },
+ {
+  "numero": 96,
+  "titulo": "Transpiração Excessiva",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Fogo (C/ID/CS/TA) e Metal (P/IG).",
+  "palavrasChave": [
+   "Suor",
+   "Hormônios"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 113
+ },
+ {
+  "numero": 97,
+  "titulo": "Transtornos Alimentares",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Terra (BP/E) e Fogo (C/CS/ID/TA).",
+  "palavrasChave": [
+   "Anorexia",
+   "Bulimia",
+   "Compulsão alimentar",
+   "Apetite"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 114
+ },
+ {
+  "numero": 98,
+  "titulo": "Trombose",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Fogo (C/ID), Terra (BP/E) e Madeira (F).",
+  "palavrasChave": [
+   "Circulação",
+   "Sangue"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 115
+ },
+ {
+  "numero": 99,
+  "titulo": "Túnel do Carpo",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B) e Madeira (F).",
+  "palavrasChave": [
+   "Punho",
+   "Dedos",
+   "Mãos",
+   "Tendinite",
+   "Dedo em gatilho"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 116
+ },
+ {
+  "numero": 100,
+  "titulo": "Vias Urinárias",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Água (R/B), Terra (BP/E) e Metal (P).",
+  "palavrasChave": [
+   "Incontinência urinária",
+   "Infecção Urinária",
+   "Cistite"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 117
+ },
+ {
+  "numero": 101,
+  "titulo": "Visão",
+  "complemento": "",
+  "descricao": "",
+  "relacoes": "Elementos Fogo (C/ID), Metal (P/IG) e Madeira (F).",
+  "palavrasChave": [
+   "Astigmatismo",
+   "Miopia",
+   "Cataratas",
+   "Hipermetropia",
+   "Olhos"
+  ],
+  "sugestao": "",
+  "notaAplicacao": "",
+  "pagina": 118
+ }
+]

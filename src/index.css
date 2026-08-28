@@ -1,0 +1,170 @@
+/*
+ * ═══════════════════════════════════════════════════════════════════════════
+ *  FOLHA DE ESTILO DO APP
+ * ═══════════════════════════════════════════════════════════════════════════
+ *
+ * É a única folha de estilo do projeto, carregada por `main.tsx`. Fora daqui,
+ * o estilo vive em classes do Tailwind, dentro de cada componente.
+ *
+ * Está dividida em quatro partes, nesta ordem:
+ *
+ *     1. fontes e Tailwind
+ *     2. @theme ......... as variáveis de design: cores e raios
+ *     3. @layer base .... o que vale para o documento inteiro
+ *     4. @media print ... o que vai para o papel
+ *
+ * A parte 2 é onde se mexe no visual. Cada variável ali vira utilitário do
+ * Tailwind automaticamente: `--color-chip` gera `text-chip`, `bg-chip` e
+ * `border-chip`; `--radius-card` gera `rounded-card`. Trocar o valor muda o app
+ * inteiro sem tocar em nenhum componente.
+ */
+
+/* ─────────────────────────────────────────────── 1. fontes e Tailwind ───── */
+
+@import '@fontsource-variable/source-serif-4';
+/* o itálico é um arquivo à parte; sem ele o navegador inclinaria a fonte na marra */
+@import '@fontsource-variable/source-serif-4/opsz-italic.css';
+@import 'tailwindcss';
+
+/* ───────────────────────────────────────────────── 2. cores e raios ─────── */
+
+/*
+ * Migrado para os tokens do design system Broadsheet (jornal/serifado, tinta
+ * quase preta sobre papel, acentos ciano/magenta como cor-pontual de imprensa).
+ * Os NOMES das variáveis não mudaram — só os valores — para não quebrar nenhuma
+ * classe já usada no app.
+ */
+@theme {
+  /* o Tailwind usa este token no <html>, então a serifa pega no app inteiro */
+  --font-sans: 'Source Serif 4 Variable', Georgia, 'Times New Roman', serif;
+
+  /* ─────────────────────────────────────────────── acento secundário (raro)
+   * Era o azul-violeta da marca. Agora é a magenta do Broadsheet — o "segundo
+   * spot color", usado só onde já era usado: botão "Ver em todas as
+   * categorias", aviso "Onde desenhar", link de recuperar senha.
+   * Não usar em mais lugares: o sistema reserva magenta para destaques raros.
+   */
+  --color-brand-50: #fff1f4;
+  --color-brand-100: #ffdee6;
+  --color-brand-500: #ff458e;
+  --color-brand-600: #aa0b56; /* fundo de botão sólido — contraste 4,5:1+ com texto branco */
+  --color-brand-700: #790e3d; /* hover/pressed do botão sólido */
+
+  /* ────────────────────────────────────────────────────────── papel e tinta */
+  --color-surface: #f3f2f2; /* era branco puro; agora o "papel" do Broadsheet */
+  --color-surface-muted: #eae9e9; /* um tom abaixo do papel — campo de busca, toques */
+  --color-ink: #201e1d; /* texto principal — quase preto */
+  --color-ink-muted: #605d5d; /* texto secundário: indicações, legendas */
+  --color-line: color-mix(in srgb, #201e1d 16%, transparent); /* fio de separação */
+
+  /* ──────────────────────────────────────────────────────────────── chips
+   * A cor que atravessa o app: chips de sintoma, categoria, aminoácido e
+   * trigrama; títulos das telas; menus; botões de voltar, imprimir e limpar
+   * filtros; nomes no índice; percentual de compatibilidade.
+   *
+   * O ciano do Broadsheet já é o mesmo tom do chip original — nenhuma mudança
+   * de matiz, só os tons de apoio (suave/forte) vêm da rampa oficial. O `forte`
+   * é escurecido de propósito: o ciano cheio não dá contraste suficiente para
+   * texto branco por cima.
+   */
+  --color-chip: #0088b0;
+  --color-chip-suave: #e9f8ff;
+  --color-chip-forte: #006786;
+
+  /* ───────────────────────────────────────────────── desenho dos protocolos
+   * A tinta dos hexagramas, trigramas e dos pontos do centro. Unificada com a
+   * tinta principal do texto — era um preto-azulado à parte.
+   */
+  --color-tinta: #201e1d;
+
+  /* As quatro bases do códon — mantidas como estão, porque são código
+   * funcional e não decoração. Cada digrama do hexagrama é pintado na cor da
+   * sua base, e cada uma corresponde a um elemento:
+   *
+   *     U · Uracila  · Água     G · Guanina  · Metal
+   *     C · Citosina · Madeira  A · Adenina  · Fogo
+   */
+  --color-base-u: #1e90ff;
+  --color-base-g: #808080;
+  --color-base-c: #22b14c;
+  --color-base-a: #ed1c24;
+
+  /* ────────────────────────────────────────────────────────────────── raios
+   * Três medidas, cada uma com um papel:
+   *
+   *     control ... campos e botões de uma linha, arredondados como os chips
+   *     bloco ..... botões da tela do protocolo, que são blocos: o de imprimir
+   *                 ocupa a largura toda e os de anterior/próximo têm duas
+   *                 linhas. Com raio total virariam estádios
+   *     card ...... cards, avisos e caixas de conteúdo, no raio quase reto do
+   *                 Broadsheet
+   *
+   * Chips, tags e a navegação usam `rounded-full` direto, por decisão de produto.
+   */
+  --radius-control: 9999px;
+  --radius-bloco: 12px;
+  --radius-card: 4px;
+}
+
+/* ──────────────────────────────────────────────────── 3. base do documento ─ */
+
+@layer base {
+  html {
+    /* impede o "puxar para atualizar" e o bounce que denunciam que é um site */
+    overscroll-behavior-y: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-surface-muted text-ink antialiased;
+    /* respeita o notch e a barra de gestos do iPhone */
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  /* seleção de texto só onde faz sentido, como em app nativo */
+  button,
+  a {
+    -webkit-user-select: none;
+    user-select: none;
+  }
+}
+
+/* ───────────────────────────────────────────────────────── 4. impressão ─── */
+
+@media print {
+  /*
+   * No papel vai só o desenho — bagua ou código em linha — com o nome do
+   * protocolo em cima. Some tudo o mais: indicação, chips, navegação. A folha
+   * existe para ser copiada com a caneta, não para ser lida.
+   *
+   * O `visibility` some com o conteúdo mas preserva a árvore, o que evita brigar
+   * com cada ancestral do desenho; e o `position` tira o que sobrou do fluxo,
+   * para a folha começar no alto em vez de herdar o espaço da página inteira.
+   */
+  body * {
+    visibility: hidden;
+  }
+
+  .paraImprimir,
+  .paraImprimir * {
+    visibility: visible;
+  }
+
+  .paraImprimir {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 13cm;
+  }
+
+  /* dois baguás empilhados dobram a altura: metade da largura para caber numa folha */
+  .paraImprimir[data-alto='sim'] {
+    width: 8.5cm;
+  }
+
+  @page {
+    margin: 1.5cm;
+  }
+}
