@@ -9,7 +9,9 @@ const anonKey = import.meta.env.VITE_SUPABASE_ANON_KEY
  */
 export const supabaseConfigurado = Boolean(url && anonKey)
 
-export const supabase = createClient(url ?? 'http://localhost', anonKey ?? 'chave-ausente', {
+// `||` e não `??`: fora do .env.local a variável pode chegar como string vazia
+// (é o que o GitHub Actions faz com um secret ausente), e o createClient quebra com ''.
+export const supabase = createClient(url || 'http://localhost', anonKey || 'chave-ausente', {
   auth: {
     // mantém o usuário logado entre aberturas do app (web e celular)
     persistSession: true,
