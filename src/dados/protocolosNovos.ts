@@ -65,14 +65,45 @@ export type ProtocoloNovo = {
 }
 
 export const protocolosNovos: ProtocoloNovo[] = [
-  // ── Exemplo. Apague ou substitua. ────────────────────────────────────────
-  // {
-  //   numero: 102,
-  //   titulo: 'Enxaqueca',
-  //   palavrasChave: ['Cefaleia', 'Dor de cabeça', 'Aura', 'Náusea'],
-  //   composicao: {
-  //     centro: 'AUG',                                    // metionina
-  //     anel: ['UGG', 'UGG', 'AAA', 'AAG', 'CAA', 'CAG', 'UGG', 'UGG'],
-  //   },
-  // },
+  // 102 · Treino Muscular — código em linha com os três aminoácidos de que o corpo
+  // faz a creatina: metionina, arginina e glicina. Cada um entra com todos os seus
+  // códons, na ordem canônica da terceira base (U, C, A, G), como nos protocolos
+  // do livro. Duas fileiras: a metionina abre, a arginina completa a primeira e a
+  // glicina fecha embaixo — lê-se como uma sequência só.
+  //
+  //     AUG · CGU CGC CGA CGG AGA AGG
+  //     GGU GGC GGA GGG
+  {
+    numero: 102,
+    titulo: 'Treino Muscular',
+    complemento: 'Força e Recuperação',
+    descricao:
+      'Apoio para quem treina: os três aminoácidos que o corpo combina para fazer ' +
+      'creatina, o que sustenta a força no esforço curto e a recuperação depois dele.',
+    palavrasChave: [
+      'Treino',
+      'Musculação',
+      'Massa muscular',
+      'Recuperação muscular',
+      'Dor muscular',
+      'Fadiga',
+      'Fraqueza',
+      'Resistência',
+    ],
+    indicacao:
+      'quem treina e quer sustentar força e massa muscular, e para a dor e a fadiga ' +
+      'que vêm depois do esforço',
+    categorias: ['neuromuscular', 'circulacao'],
+    notaAplicacao: 'Sobre o grupo muscular trabalhado, ou na região lombar antes do treino',
+    relacoes:
+      'Metionina abre o enxofre e o fígado; arginina abre o vaso pelo óxido nítrico e ' +
+      'leva o sangue ao músculo; glicina fecha no colágeno e no descanso.',
+    composicao: {
+      arranjo: 'linha',
+      hexagramas: [
+        ['AUG', 'CGU', 'CGC', 'CGA', 'CGG', 'AGA', 'AGG'],
+        ['GGU', 'GGC', 'GGA', 'GGG'],
+      ],
+    },
+  },
 ]

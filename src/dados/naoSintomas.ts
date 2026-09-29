@@ -27,6 +27,9 @@ export const NAO_SAO_SINTOMAS = new Set([
 
   // mecanismos de lesão, não o sintoma em si
   'Pancada', 'Tombo',
+
+  // contextos dos protocolos cadastrados depois do livro
+  'Massa muscular', 'Musculação', 'Recuperação muscular', 'Treino',
 ])
 
 export function ehSintoma(palavra: string) {

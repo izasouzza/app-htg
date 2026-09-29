@@ -100,6 +100,11 @@ export const SINONIMOS: Record<string, string[]> = {
   enjoo: ['enjoo', 'nausea'],
   diarreia: ['diarreia'],
   alergia: ['alergias'],
+  academia: ['treino', 'musculacao'],
+  treinar: ['treino', 'musculacao'],
+  musculo: ['dor muscular', 'massa muscular'],
+  hipertrofia: ['massa muscular', 'musculacao'],
+  creatina: ['treino', 'massa muscular'],
 }
 
 /**

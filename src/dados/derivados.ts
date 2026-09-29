@@ -17,6 +17,11 @@ export const DERIVADOS: Derivado[] = [
     exige: ['M', 'C'],
     origem: 'junção de metionina e cisteína',
   },
+  {
+    nome: 'Creatina',
+    exige: ['M', 'R', 'G'],
+    origem: 'arginina e glicina, com o grupo metil da metionina',
+  },
 ]
 
 /** Quais derivados a lista de aminoácidos de um protocolo forma. */
