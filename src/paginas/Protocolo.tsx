@@ -11,11 +11,15 @@ import { AMINOACIDO_POR_CODIGO } from '@/lib/genetica'
 import { derivadosPresentes } from '@/dados/derivados'
 import DesenhoProtocolo from '@/components/DesenhoProtocolo'
 import AvisoSaude from '@/components/AvisoSaude'
+import { alternarFavorito, useFavoritos } from '@/lib/favoritos'
+import { vibrar } from '@/lib/nativo'
+import IconeCoracao from '@/components/IconeCoracao'
 
 export default function Protocolo() {
   const { numero } = useParams()
   const navegar = useNavigate()
   const protocolo = protocoloPorNumero(Number(numero))
+  const favoritos = useFavoritos()
 
   if (!protocolo) return <Navigate to="/" replace />
 
@@ -34,6 +38,7 @@ export default function Protocolo() {
   // dois baguás empilhados ocupam o dobro da altura no papel; o CSS de impressão usa isto
   const duasRosetas = bagua?.arranjo === 'bagua' && bagua.rosetas.length > 1
   const derivados = derivadosPresentes(aminoacidos.map((a) => a.codigo))
+  const favorito = favoritos.includes(protocolo.numero)
 
   return (
     <div className="pb-4">
@@ -44,6 +49,19 @@ export default function Protocolo() {
           className="rounded-lg px-2 py-1 text-sm text-chip hover:bg-surface-muted active:bg-surface-muted"
         >
           ‹ Voltar
+        </button>
+
+        <button
+          type="button"
+          onClick={() => {
+            void vibrar()
+            alternarFavorito(protocolo.numero)
+          }}
+          aria-pressed={favorito}
+          className="ml-auto flex items-center gap-1.5 rounded-lg px-2 py-1 text-sm text-chip hover:bg-surface-muted active:bg-surface-muted print:hidden"
+        >
+          <IconeCoracao vazio={!favorito} className="text-lg" />
+          {favorito ? 'Favorito' : 'Favoritar'}
         </button>
       </div>
 

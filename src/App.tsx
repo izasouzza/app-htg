@@ -2,6 +2,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import LayoutApp from '@/components/LayoutApp'
 import Buscar from '@/paginas/Buscar'
 import Indice from '@/paginas/Indice'
+import Favoritos from '@/paginas/Favoritos'
 import Protocolo from '@/paginas/Protocolo'
 import Aminoacidos from '@/paginas/Aminoacidos'
 import Aminoacido from '@/paginas/Aminoacido'
@@ -15,6 +16,7 @@ export default function App() {
         <Route element={<LayoutApp />}>
           <Route index element={<Buscar />} />
           <Route path="indice" element={<Indice />} />
+          <Route path="favoritos" element={<Favoritos />} />
           <Route path="protocolo/:numero" element={<Protocolo />} />
           <Route path="aminoacidos" element={<Aminoacidos />} />
           <Route path="aminoacido/:codigo" element={<Aminoacido />} />

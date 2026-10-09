@@ -1,10 +1,17 @@
 import { NavLink, Outlet } from 'react-router-dom'
 import RolagemDeRota from '@/components/RolagemDeRota'
 import { vibrar } from '@/lib/nativo'
+import IconeCoracao from '@/components/IconeCoracao'
 
 const abas = [
   { para: '/', rotulo: 'Buscar', icone: '🔍' },
   { para: '/indice', rotulo: 'Índice', icone: '📖' },
+  {
+    para: '/favoritos',
+    rotulo: 'Favoritos',
+    // o coração é desenhado, no tom dos chips — emoji não tem esse azul
+    icone: <IconeCoracao className="text-chip" />,
+  },
   { para: '/aminoacidos', rotulo: 'Aminoácidos', icone: '🧬' },
   { para: '/sobre', rotulo: 'Sobre', icone: 'ℹ️' },
 ]

@@ -1,8 +1,11 @@
 import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { protocolos } from '@/dados/protocolos'
+import { useFavoritos } from '@/lib/favoritos'
+import IconeCoracao from '@/components/IconeCoracao'
 
 export default function Indice() {
+  const favoritos = useFavoritos()
   // agrupa em ordem alfabética, como o sumário do livro
   const grupos = useMemo(() => {
     const ordenados = [...protocolos].sort((a, b) =>
@@ -43,6 +46,11 @@ export default function Indice() {
                       <span className="text-sm text-ink-muted"> ({p.complemento})</span>
                     )}
                   </span>
+                  {favoritos.includes(p.numero) && (
+                    <span className="text-chip" title="Favorito">
+                      <IconeCoracao />
+                    </span>
+                  )}
                   <span className="text-ink-muted">›</span>
                 </Link>
               </li>
