@@ -75,8 +75,10 @@ export default function DesenhoProtocolo({
     )
   }
 
+  // mesmo quadrado do bagua, para a moldura não mudar de tamanho entre protocolos;
+  // código longo demais estica o quadrado em vez de vazar
   return (
-    <div className="flex flex-col items-center gap-6 rounded-2xl border border-line bg-white p-5">
+    <div className="flex aspect-square w-full flex-col items-center justify-center gap-6 rounded-2xl border border-line bg-white p-5">
       <Fileiras fileiras={composicao.fileiras} colorido={colorido} />
     </div>
   )

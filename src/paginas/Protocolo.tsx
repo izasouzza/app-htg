@@ -103,7 +103,7 @@ export default function Protocolo() {
           )}
         </div>
 
-        <figure className="mt-4 md:col-start-1 md:row-span-2 md:row-start-1 md:sticky md:top-24 md:mt-0">
+        <figure className="mt-10 md:col-start-1 md:row-span-2 md:row-start-1 md:sticky md:top-24 md:mt-0">
           {bagua && (
             <h2 className="mb-2 text-sm font-medium">
               {bagua.arranjo !== 'bagua'
@@ -127,7 +127,8 @@ export default function Protocolo() {
                 {protocolo.titulo}
                 {protocolo.complemento && ` (${protocolo.complemento})`}
               </p>
-              <DesenhoProtocolo composicao={bagua} />
+              {/* no protocolo o desenho sai todo em tinta, para copiar com uma caneta só; as cores das bases ficam na tela de aminoácidos */}
+              <DesenhoProtocolo composicao={bagua} colorido={false} />
             </div>
           ) : (
             <p className="rounded-card border border-dashed border-line bg-surface-muted p-6 text-center text-sm text-ink-muted">
@@ -152,9 +153,9 @@ export default function Protocolo() {
           )}
         </figure>
 
-        <div className="md:col-start-2 md:row-start-2 md:mt-8">
+        <div className="md:col-start-2 md:row-start-2 md:mt-10">
           {bagua && (
-            <section className="mt-4 md:mt-0">
+            <section className="mt-10 md:mt-0">
               <h2 className="text-sm font-medium">Assinatura energética deste protocolo</h2>
               <ul className="mt-3 flex flex-wrap gap-2.5">
                 {centrosDePontos.map((centro, i) => (
@@ -225,19 +226,19 @@ export default function Protocolo() {
           )}
 
           {protocolo.notaAplicacao && (
-            <p className="mt-4 rounded-card border border-brand-100 bg-brand-50 px-4 py-3 text-sm text-brand-700">
+            <p className="mt-10 rounded-card border border-brand-100 bg-brand-50 px-4 py-3 text-sm text-brand-700">
               <strong className="font-medium">Onde desenhar:</strong> {protocolo.notaAplicacao}.
             </p>
           )}
 
           {protocolo.sugestao && (
-            <p className="mt-4 rounded-card border border-line bg-surface-muted px-4 py-3 text-sm leading-relaxed">
+            <p className="mt-10 rounded-card border border-line bg-surface-muted px-4 py-3 text-sm leading-relaxed">
               <strong className="font-medium">Sugestão:</strong> {protocolo.sugestao}
             </p>
           )}
 
           {protocolo.palavrasChave.length > 0 && (
-            <section className="mt-8">
+            <section className="mt-10">
               <h2 className="text-sm font-medium">Sintomas relacionados</h2>
               <ul className="mt-3 flex flex-wrap gap-2.5">
                 {protocolo.palavrasChave.map((chave) => (
@@ -255,7 +256,7 @@ export default function Protocolo() {
           )}
 
           {protocolo.relacoes && (
-            <section className="mt-8">
+            <section className="mt-10">
               <h2 className="text-sm font-medium">Relações energéticas</h2>
               <p className="mt-2 text-sm leading-relaxed text-ink-muted">{protocolo.relacoes}</p>
               <p className="mt-1 text-xs text-ink-muted">
@@ -264,11 +265,11 @@ export default function Protocolo() {
             </section>
           )}
 
-          <div className="mt-8">
+          <div className="mt-10">
             <AvisoSaude compacto />
           </div>
 
-          <nav className="mt-8 flex gap-2">
+          <nav className="mt-10 flex gap-2">
             {anterior && (
               <Link
                 to={`/protocolo/${anterior.numero}`}
