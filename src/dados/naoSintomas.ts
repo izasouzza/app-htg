@@ -29,7 +29,7 @@ export const NAO_SAO_SINTOMAS = new Set([
   'Pancada', 'Tombo',
 
   // contextos dos protocolos cadastrados depois do livro
-  'Massa muscular', 'Musculação', 'Recuperação muscular', 'Treino',
+  'Analgésico', 'Anestésico', 'Massa muscular', 'Musculação', 'Recuperação muscular', 'Treino',
 ])
 
 export function ehSintoma(palavra: string) {

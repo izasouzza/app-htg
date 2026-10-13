@@ -239,4 +239,82 @@ export const protocolosNovos: ProtocoloNovo[] = [
       },
     },
   },
+
+  // 109 · Amenorreia e Endometriose — triptofano no centro; horário a partir do norte:
+  // glutamina, tirosina e valina com os quatro códons, na ordem em que o desenho os
+  // traz (GUG, GUU, GUC, GUA). Transcrito do desenho enviado, 9 de 9 posições conferidas.
+  //
+  //            NO  GUA      N  CAA      NE  CAG
+  //             O  GUC       (UGG)       L  UAU
+  //            SO  GUU       S  GUG      SE  UAC
+  {
+    numero: 109,
+    titulo: 'Amenorreia e Endometriose',
+    palavrasChave: ['Amenorreia', 'Endometriose', 'Ausência de menstruação', 'Cólica'],
+    categorias: ['mulher'],
+    composicao: {
+      centro: 'UGG',
+      anel: ['GUA', 'CAA', 'CAG', 'GUC', 'UAU', 'GUU', 'GUG', 'UAC'],
+    },
+  },
+
+  // 110 · Analgésico Energético — código em linha, três fileiras, transcritas do desenho
+  // enviado na ordem em que ele as traz (15 de 15 glifos conferidos):
+  //
+  //     AUG · UUU UUC · UAC UAU          metionina, fenilalanina e tirosina
+  //     GGA GGU GGC GGG                  glicina
+  //     CUC UUA UUG CUU CUG CUA          leucina
+  {
+    numero: 110,
+    titulo: 'Analgésico Energético',
+    complemento: 'Todos os tipos de dores',
+    palavrasChave: ['Dor', 'Dores', 'Analgésico', 'Anestésico'],
+    indicacao: 'todos os tipos de dores',
+    categorias: ['dores'],
+    composicao: {
+      arranjo: 'linha',
+      hexagramas: [
+        ['AUG', 'UUU', 'UUC', 'UAC', 'UAU'],
+        ['GGA', 'GGU', 'GGC', 'GGG'],
+        ['CUC', 'UUA', 'UUG', 'CUU', 'CUG', 'CUA'],
+      ],
+    },
+  },
+
+  // 111 · Choque Emocional — cinco pontos no centro, como na Arritmia (10), e o
+  // triptofano nas oito posições do anel, todas voltadas para o centro. Transcrito do
+  // desenho enviado, 8 de 8 glifos conferidos.
+  {
+    numero: 111,
+    titulo: 'Choque Emocional',
+    descricao: 'Usado para fortalecer o emocional após grande estresse ou trauma.',
+    palavrasChave: ['Choque emocional', 'Trauma', 'Estresse'],
+    indicacao: 'fortalecer o emocional após grande estresse ou trauma',
+    categorias: ['emocional'],
+    composicao: {
+      centro: { pontos: 5 },
+      anel: ['UGG', 'UGG', 'UGG', 'UGG', 'UGG', 'UGG', 'UGG', 'UGG'],
+    },
+  },
+
+  // 112 · Desparasitação — metionina no centro; horário a partir do norte: lisina, com
+  // os seus dois códons repetidos (AAA, AAG, AAA, AAG), e treonina com os quatro, na
+  // mesma ordem da Arteriosclerose (11). Transcrito do desenho enviado, 9 de 9 posições
+  // conferidas.
+  //
+  //            NO  ACG      N  AAA      NE  AAG
+  //             O  ACU       (AUG)       L  AAA
+  //            SO  ACC       S  ACA      SE  AAG
+  {
+    numero: 112,
+    titulo: 'Desparasitação',
+    descricao: 'Usado para tratar problemas com parasitas intestinais, como lombrigas e giárdias.',
+    palavrasChave: ['Parasitas intestinais', 'Vermes', 'Lombriga', 'Giárdia'],
+    indicacao: 'parasitas intestinais, como lombrigas e giárdias',
+    categorias: ['digestao'],
+    composicao: {
+      centro: 'AUG',
+      anel: ['ACG', 'AAA', 'AAG', 'ACU', 'AAA', 'ACC', 'ACA', 'AAG'],
+    },
+  },
 ]
