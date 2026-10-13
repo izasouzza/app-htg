@@ -106,4 +106,69 @@ export const protocolosNovos: ProtocoloNovo[] = [
       ],
     },
   },
+
+  // 103 · Hormonal — código em linha com taurina, glicina, triptofano, arginina e
+  // glutamina. A taurina não tem códon: entra pela metionina e pela cisteína, de
+  // que o corpo a faz, e a página do protocolo a anuncia sozinha (derivados.ts).
+  // Cada aminoácido com todos os seus códons, na ordem canônica da terceira base.
+  // Duas fileiras de oito, lidas como uma sequência só:
+  //
+  //     AUG UGU UGC · GGU GGC GGA GGG · UGG
+  //     CGU CGC CGA CGG AGA AGG · CAA CAG
+  {
+    numero: 103,
+    titulo: 'Hormonal',
+    palavrasChave: [
+      'Ciclo menstrual desregulado',
+      'Muito fluxo menstrual',
+      'Pouco fluxo menstrual',
+    ],
+    indicacao:
+      'o ciclo menstrual desregulado, e para o fluxo menstrual em excesso ou escasso',
+    categorias: ['mulher'],
+    composicao: {
+      arranjo: 'linha',
+      hexagramas: [
+        ['AUG', 'UGU', 'UGC', 'GGU', 'GGC', 'GGA', 'GGG', 'UGG'],
+        ['CGU', 'CGC', 'CGA', 'CGG', 'AGA', 'AGG', 'CAA', 'CAG'],
+      ],
+    },
+  },
+
+  // 104 · Bruxismo — código em linha com glicina, triptofano e taurina. Como no
+  // Hormonal, a taurina entra pela metionina e pela cisteína. Uma fileira de oito:
+  //
+  //     GGU GGC GGA GGG · UGG · AUG UGU UGC
+  {
+    numero: 104,
+    titulo: 'Bruxismo',
+    palavrasChave: ['Bruxismo', 'Contração muscular', 'Mandíbula presa', 'ATM', 'DTM'],
+    indicacao:
+      'o bruxismo e a mandíbula presa, e para a contração muscular que vem com a ATM e a DTM',
+    categorias: ['neuromuscular', 'dores'],
+    composicao: {
+      arranjo: 'linha',
+      hexagramas: ['GGU', 'GGC', 'GGA', 'GGG', 'UGG', 'AUG', 'UGU', 'UGC'],
+    },
+  },
+
+  // 105 · Hipertensão — código em linha com glicina, arginina e metionina, cada uma
+  // com todos os seus códons. Duas fileiras: a glicina em cima; a arginina e a
+  // metionina embaixo — lê-se como uma sequência só.
+  //
+  //     GGU GGC GGA GGG
+  //     CGU CGC CGA CGG AGA AGG · AUG
+  {
+    numero: 105,
+    titulo: 'Hipertensão',
+    palavrasChave: ['Hipertensão', 'Pressão alta'],
+    categorias: ['circulacao'],
+    composicao: {
+      arranjo: 'linha',
+      hexagramas: [
+        ['GGU', 'GGC', 'GGA', 'GGG'],
+        ['CGU', 'CGC', 'CGA', 'CGG', 'AGA', 'AGG', 'AUG'],
+      ],
+    },
+  },
 ]
