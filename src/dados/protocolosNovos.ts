@@ -107,14 +107,16 @@ export const protocolosNovos: ProtocoloNovo[] = [
     },
   },
 
-  // 103 · Hormonal — código em linha com taurina, glicina, triptofano, arginina e
-  // glutamina. A taurina não tem códon: entra pela metionina e pela cisteína, de
-  // que o corpo a faz, e a página do protocolo a anuncia sozinha (derivados.ts).
-  // Cada aminoácido com todos os seus códons, na ordem canônica da terceira base.
-  // Duas fileiras de oito, lidas como uma sequência só:
+  // 103 · Hormonal — metionina no centro; horário a partir do norte: arginina com os
+  // seis códons e glutamina — o mesmo anel da Anemia e das Dormências (7 e 41). O que
+  // não cabe no anel vai para o complemento: a taurina, a glicina e o triptofano. A
+  // taurina não tem códon: entra pela cisteína, que com a metionina do centro é de onde
+  // o corpo a faz, e a página do protocolo a anuncia sozinha (derivados.ts).
   //
-  //     AUG UGU UGC · GGU GGC GGA GGG · UGG
-  //     CGU CGC CGA CGG AGA AGG · CAA CAG
+  //            NO  CAG      N  AGA      NE  CGC
+  //             O  CAA       (AUG)       L  CGG
+  //            SO  CGU       S  AGG      SE  CGA
+  //         complemento: UGU  UGC  GGU  GGC  GGA  GGG  UGG
   {
     numero: 103,
     titulo: 'Hormonal',
@@ -127,18 +129,20 @@ export const protocolosNovos: ProtocoloNovo[] = [
       'o ciclo menstrual desregulado, e para o fluxo menstrual em excesso ou escasso',
     categorias: ['mulher'],
     composicao: {
-      arranjo: 'linha',
-      hexagramas: [
-        ['AUG', 'UGU', 'UGC', 'GGU', 'GGC', 'GGA', 'GGG', 'UGG'],
-        ['CGU', 'CGC', 'CGA', 'CGG', 'AGA', 'AGG', 'CAA', 'CAG'],
-      ],
+      centro: 'AUG',
+      anel: ['CAG', 'AGA', 'CGC', 'CAA', 'CGG', 'CGU', 'AGG', 'CGA'],
+      complemento: ['UGU', 'UGC', 'GGU', 'GGC', 'GGA', 'GGG', 'UGG'],
     },
   },
 
-  // 104 · Bruxismo — código em linha com glicina, triptofano e taurina. Como no
-  // Hormonal, a taurina entra pela metionina e pela cisteína. Uma fileira de oito:
+  // 104 · Bruxismo — metionina no centro; horário a partir do norte: glicina com os
+  // quatro códons, triptofano e taurina. A glicina gira na ordem do livro (protocolos
+  // 29, 42 e 62); a taurina entra pela metionina e pela cisteína, lado a lado, o que
+  // fecha as oito posições.
   //
-  //     GGU GGC GGA GGG · UGG · AUG UGU UGC
+  //            NO  UGC      N  GGA      NE  GGU
+  //             O  UGU       (AUG)       L  GGC
+  //            SO  AUG       S  UGG      SE  GGG
   {
     numero: 104,
     titulo: 'Bruxismo',
@@ -147,28 +151,28 @@ export const protocolosNovos: ProtocoloNovo[] = [
       'o bruxismo e a mandíbula presa, e para a contração muscular que vem com a ATM e a DTM',
     categorias: ['neuromuscular', 'dores'],
     composicao: {
-      arranjo: 'linha',
-      hexagramas: ['GGU', 'GGC', 'GGA', 'GGG', 'UGG', 'AUG', 'UGU', 'UGC'],
+      centro: 'AUG',
+      anel: ['UGC', 'GGA', 'GGU', 'UGU', 'GGC', 'AUG', 'UGG', 'GGG'],
     },
   },
 
-  // 105 · Hipertensão — código em linha com glicina, arginina e metionina, cada uma
-  // com todos os seus códons. Duas fileiras: a glicina em cima; a arginina e a
-  // metionina embaixo — lê-se como uma sequência só.
+  // 105 · Hipertensão — metionina no centro; glicina sozinha no anel, dando duas voltas
+  // nos seus quatro códons, como a treonina na Arteriosclerose (11) — o desenho fica
+  // simétrico a 180°. A arginina, com os seis códons, vai para o complemento.
   //
-  //     GGU GGC GGA GGG
-  //     CGU CGC CGA CGG AGA AGG · AUG
+  //            NO  GGG      N  GGA      NE  GGU
+  //             O  GGC       (AUG)       L  GGC
+  //            SO  GGU       S  GGA      SE  GGG
+  //              complemento: CGU  CGC  CGA  CGG  AGA  AGG
   {
     numero: 105,
     titulo: 'Hipertensão',
     palavrasChave: ['Hipertensão', 'Pressão alta'],
     categorias: ['circulacao'],
     composicao: {
-      arranjo: 'linha',
-      hexagramas: [
-        ['GGU', 'GGC', 'GGA', 'GGG'],
-        ['CGU', 'CGC', 'CGA', 'CGG', 'AGA', 'AGG', 'AUG'],
-      ],
+      centro: 'AUG',
+      anel: ['GGG', 'GGA', 'GGU', 'GGC', 'GGC', 'GGU', 'GGA', 'GGG'],
+      complemento: ['CGU', 'CGC', 'CGA', 'CGG', 'AGA', 'AGG'],
     },
   },
 ]
