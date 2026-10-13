@@ -107,16 +107,15 @@ export const protocolosNovos: ProtocoloNovo[] = [
     },
   },
 
-  // 103 · Hormonal — metionina no centro; horário a partir do norte: arginina com os
-  // seis códons e glutamina — o mesmo anel da Anemia e das Dormências (7 e 41). O que
-  // não cabe no anel vai para o complemento: a taurina, a glicina e o triptofano. A
-  // taurina não tem códon: entra pela cisteína, que com a metionina do centro é de onde
-  // o corpo a faz, e a página do protocolo a anuncia sozinha (derivados.ts).
+  // 103 · Hormonal — metionina no centro; horário a partir do norte: cisteína, glicina
+  // com os quatro códons e glutamina — o mesmo arranjo do Covid-19 (29), com a glicina
+  // na ordem canônica. A taurina não tem códon: entra pela cisteína, que com a metionina
+  // do centro é de onde o corpo a faz, e a página do protocolo a anuncia sozinha
+  // (derivados.ts). Transcrito do desenho enviado, 9 de 9 posições conferidas.
   //
-  //            NO  CAG      N  AGA      NE  CGC
-  //             O  CAA       (AUG)       L  CGG
-  //            SO  CGU       S  AGG      SE  CGA
-  //         complemento: UGU  UGC  GGU  GGC  GGA  GGG  UGG
+  //            NO  CAG      N  UGU      NE  UGC
+  //             O  CAA       (AUG)       L  GGU
+  //            SO  GGG       S  GGA      SE  GGC
   {
     numero: 103,
     titulo: 'Hormonal',
@@ -130,8 +129,7 @@ export const protocolosNovos: ProtocoloNovo[] = [
     categorias: ['mulher'],
     composicao: {
       centro: 'AUG',
-      anel: ['CAG', 'AGA', 'CGC', 'CAA', 'CGG', 'CGU', 'AGG', 'CGA'],
-      complemento: ['UGU', 'UGC', 'GGU', 'GGC', 'GGA', 'GGG', 'UGG'],
+      anel: ['CAG', 'UGU', 'UGC', 'CAA', 'GGU', 'GGG', 'GGA', 'GGC'],
     },
   },
 
@@ -173,6 +171,72 @@ export const protocolosNovos: ProtocoloNovo[] = [
       centro: 'AUG',
       anel: ['GGG', 'GGA', 'GGU', 'GGC', 'GGC', 'GGU', 'GGA', 'GGG'],
       complemento: ['CGU', 'CGC', 'CGA', 'CGG', 'AGA', 'AGG'],
+    },
+  },
+
+  // 106 · Otite — metionina no centro; horário a partir do norte: glutamina (CAA),
+  // arginina (CGG), glicina com os quatro códons e cisteína. Transcrito do desenho
+  // enviado, 9 de 9 posições conferidas. A cisteína com a metionina do centro forma
+  // a taurina, que a página do protocolo anuncia sozinha (derivados.ts).
+  //
+  //            NO  UGC      N  CAA      NE  CGG
+  //             O  UGU       (AUG)       L  GGU
+  //            SO  GGG       S  GGA      SE  GGC
+  {
+    numero: 106,
+    titulo: 'Otite',
+    palavrasChave: ['Otite', 'Dor de ouvido', 'Infecção de ouvido'],
+    categorias: ['cabeca'],
+    composicao: {
+      centro: 'AUG',
+      anel: ['UGC', 'CAA', 'CGG', 'UGU', 'GGU', 'GGG', 'GGA', 'GGC'],
+    },
+  },
+
+  // 107 · Desidrose — metionina no centro; horário a partir do norte: glutamina, lisina,
+  // cisteína e fenilalanina, quatro aminoácidos de dois códons cada, fechando as oito
+  // posições. Transcrito do desenho enviado, 9 de 9 posições conferidas. A cisteína com
+  // a metionina do centro forma a taurina, que a página anuncia sozinha (derivados.ts).
+  //
+  //            NO  UUC      N  CAA      NE  CAG
+  //             O  UUU       (AUG)       L  AAA
+  //            SO  UGC       S  UGU      SE  AAG
+  {
+    numero: 107,
+    titulo: 'Desidrose',
+    palavrasChave: ['Desidrose', 'Bolhas nas mãos', 'Bolhas nos pés', 'Coceira'],
+    categorias: ['pele'],
+    composicao: {
+      centro: 'AUG',
+      anel: ['UUC', 'CAA', 'CAG', 'UUU', 'AAA', 'UGC', 'UGU', 'AAG'],
+    },
+  },
+
+  // 108 · Artrite Reumatoide — dois baguas, ambos com metionina no centro; no desenho
+  // enviado ficam lado a lado e aqui o segundo entra embaixo, a ordem padrão do app.
+  // Transcrito do desenho, 18 de 18 posições conferidas. Horário a partir do norte:
+  //
+  //   primeiro   glicina com os quatro códons, glutamina e cisteína
+  //              NO  UGC      N  GGU      NE  GGC
+  //               O  UGU       (AUG)       L  GGA
+  //              SO  CAG       S  CAA      SE  GGG
+  //
+  //   segundo    arginina com os seis códons e lisina
+  //              NO  AAG      N  CGU      NE  CGC
+  //               O  AAA       (AUG)       L  CGA
+  //              SO  AGG       S  AGA      SE  CGG
+  {
+    numero: 108,
+    titulo: 'Artrite Reumatoide',
+    palavrasChave: ['Artrite reumatoide', 'Dor nas articulações', 'Inflamação', 'Rigidez', 'Reumatismo'],
+    categorias: ['dores'],
+    composicao: {
+      centro: 'AUG',
+      anel: ['UGC', 'GGU', 'GGC', 'UGU', 'GGA', 'CAG', 'CAA', 'GGG'],
+      segundo: {
+        centro: 'AUG',
+        anel: ['AAG', 'CGU', 'CGC', 'AAA', 'CGA', 'AGG', 'AGA', 'CGG'],
+      },
     },
   },
 ]
